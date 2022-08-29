@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-container{
+    min-width: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #ccc;
+}
+.box-container .box{
+    width: 600px;
+    background: #2c3e5e;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px  #0007;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+}
+.box-container .box .image{
+text-align: center;
+padding: 60px 0;
+width: 260px;
+background: #0005;
+clip-path: polygon(0 0,80% 0,100% 15%,100% 85%,76% 100%,0 100%);
+}
+.box-container .box .image img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px coral;
+    object-fit: cover;
+}
+.box-container .box .content{
+    padding: 0 10px;
+    display: flex;
+    }
+    .box-container .box .content .icone{
+        background: #fff;
+        margin: 0 15px;
+    }
+    .box-container .box .content .icone i{
+        font-size: 20px;
+        margin: 10px 13px;
+        color: coral;
+        display: block;
+    }
+    .box-container .box .content .icone i:first-child{
+        margin-bottom: 70px;
+    }
+    .box-container .box .content .info .title{
+        font-size: 29px;
+        color: #fff;
+        padding: 5px 0;
+        text-transform: capitalize;
+    }
+    .box-container .box .content .info .title span{
+        color: coral;
+    }
+    
+    .box-container .box .content .info .post{
+          display: block;
+          font-size: 18px;
+          color: #ccc;
+          padding-bottom: 32px;
+    }
+    .box-container .box .content .info a{
+        display: block;
+        padding: 6px 0;
+        color: #aaa;
+    }
+    .box-container .box .content .info a:hover{
+        color: whitesmoke;
+    }
+    .box-container .box .share{
+        height: 227px;
+        background: #ffffff;
+        padding: 0 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin-left: auto;
+            }
+            .box-container .box .share a{
+                margin: 10px;
+                font-size: 23px;
+                color: #666;
+            }
+            .box-container .box .share a:hover{
+                color: coral;
+            }
+            .main{
+                padding: auto;
+                margin-top:150px ;
+            }
+           
+            
